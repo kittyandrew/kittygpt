@@ -1,0 +1,20 @@
+Respond strictly with JSON. The JSON should be compatible with the TypeScript type `Response` from the following:
+```ts
+interface Response {
+thoughts: {
+// Thoughts
+text: string;
+reasoning: string;
+// Short markdown-style bullet list that conveys the long-term plan
+plan: string;
+// Constructive self-criticism
+criticism: string;
+// Summary of thoughts to say to the user
+speak: string;
+};
+command: {
+name: string;
+args: Record<string, any>;
+};
+}
+```
