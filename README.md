@@ -1,9 +1,9 @@
 ## KittyGPT - Minimalist version of AutoGPT
-Core kittygpt package code is currently under 100 LoC! Take a look for yourself.
+Core kittygpt package code is currently under 100 LoC! Take a look for yourself.  
 Keep in mind, this does not count [extras](./extras), which contains some additional commands.
 
 ### Examples
-All examples below are provided running `example.py`.
+All examples below are provided running [example.py](./example.py).
 
 ##### Example with `continuous = False` in the `example.py`.
 ```bash
